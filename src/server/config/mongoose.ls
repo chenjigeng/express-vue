@@ -11,6 +11,6 @@ module.exports = ->
     console.log "connect"
 
   mongoose.connection.on "error", (error) !->
-    console.log "something wrong happen" + error
+    console.log "unconnect mongodb"
 
   db

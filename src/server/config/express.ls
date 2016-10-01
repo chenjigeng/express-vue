@@ -6,7 +6,6 @@ require! "express-session": session
 require! "body-parser"
 
 module.exports = ->
-  console.log "you are handsome"
   app = express!
   set-express-router app
   set-express-middleware app
