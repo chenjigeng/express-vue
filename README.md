@@ -1,25 +1,18 @@
-# my-project
-
+# express-vue
 > A Vue.js project
 
-## Build Setup
+## Build Steup
 
-``` bash
-# install dependencies
+```bash
+#install dependencies
 npm install
+(If you want to use db, you have to download mongoDB)
 
 # serve with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# lint all *.js and *.vue files
-npm run lint
-
-# run unit tests
-npm test
 ```
 
-For more information see the [docs for vueify](https://github.com/vuejs/vueify).
+## description
+利用watchify+express+gulp+mongoose搭建的一个基本项目框架
+
 
